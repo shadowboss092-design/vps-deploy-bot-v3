@@ -1,65 +1,18 @@
-# ⚡ Zyper VPS V3
-
-> 🚀 Powerful • Fast • Automated VPS Hosting
-
-**Zyper VPS V3** is a Discord-based VPS management system designed for automated VPS deployment and management using **LXC/LXD**.
-
-## ✨ Features
-
-- ⚡ Automated VPS Deployment
-- 🖥️ LXC/LXD Virtualization
-- 🌍 Ubuntu & Debian Support
-- 🔄 VPS Start / Stop / Restart
-- 🗑️ VPS Management
-- 🔐 SSH Configuration
-- 🌐 Web SSH Terminal
-- ⏳ VPS Expiration System
-- ♻️ VPS Renewal System
-- 👥 Per-user VPS Limits
-- 🛡️ Admin Controls
-- 💾 Configurable Storage Pool
-- 🤖 Discord Bot Management
-- 🔁 Automatic Bot Restart
-- ⚙️ Systemd Service Support
-- 🎛️ Environment-based Configuration
-
-## 💻 Supported OS
-
-### Ubuntu
-
-- Ubuntu 20.04 LTS
-- Ubuntu 22.04 LTS
-- Ubuntu 24.04 LTS
-
-### Debian
-
-- Debian 10
-- Debian 11
-
-## 🎮 Command Prefix
-
-Zyper VPS V3 uses:
-
-```text
-&
-```
-
-Example:
-
-```text
-&help
-```
-
 ## 🚀 Installation
 
-Clone the repository:
+Clone the official **Zyper VPS V3** repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY
-cd YOUR_REPOSITORY
+git clone https://github.com/shadowboss092-design/vps-deploy-bot-v3.git
 ```
 
-Give the installer permission:
+Enter the project directory:
+
+```bash
+cd vps-deploy-bot-v3
+```
+
+Make the installer executable:
 
 ```bash
 chmod +x install.sh
@@ -71,8 +24,10 @@ Run the installer:
 sudo ./install.sh
 ```
 
-The installer will automatically install the required dependencies and configure the bot service.
+The installer will automatically install the required dependencies and configure the Zyper VPS V3 bot.
 
-## ⚙️ Configuration
+### ⚡ One-Command Installation
 
-Create your environment configuration with values similar
+```bash
+git clone https://github.com/shadowboss092-design/vps-deploy-bot-v3.git && cd vps-deploy-bot-v3 && chmod +x install.sh && sudo ./install.sh
+```
