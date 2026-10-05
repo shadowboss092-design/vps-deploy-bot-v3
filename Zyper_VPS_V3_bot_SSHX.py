@@ -27,17 +27,17 @@ load_dotenv()
 
 # Load environment variables
 DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
-BOT_NAME = os.getenv('BOT_NAME', 'UnixNodes')
-PREFIX = os.getenv('PREFIX', '!')
+BOT_NAME = os.getenv('BOT_NAME', 'ZYPERxCLOUD')
+PREFIX = os.getenv('PREFIX', '&')
 YOUR_SERVER_IP = os.getenv('YOUR_SERVER_IP', '127.0.0.1')
 MAIN_ADMIN_ID = int(os.getenv('MAIN_ADMIN_ID', '1210291131301101618'))
 VPS_USER_ROLE_ID = int(os.getenv('VPS_USER_ROLE_ID', '1210291131301101618'))
 DEFAULT_STORAGE_POOL = os.getenv('DEFAULT_STORAGE_POOL', 'default')
 HOST_MOTD = os.getenv('HOST_MOTD', 'bash <(curl -fsSL https://raw.githubusercontent.com/hopingboyz/linux/main/atyro-water-mark.sh)')
 BOT_VERSION = os.getenv('BOT_VERSION', '8.0-PRO')
-BOT_DEVELOPER = os.getenv('BOT_DEVELOPER', 'Hopingboz')
-BOT_THUMBNAIL_URL = os.getenv('BOT_THUMBNAIL_URL', 'https://i.imgur.com/Tv3clt0.jpeg')
-BOT_ICON_URL = os.getenv('BOT_ICON_URL', 'https://i.imgur.com/Tv3clt0.jpeg')
+BOT_DEVELOPER = os.getenv('BOT_DEVELOPER', 'SHADOWBOSS')
+BOT_THUMBNAIL_URL = os.getenv('BOT_THUMBNAIL_URL', '')
+BOT_ICON_URL = os.getenv('BOT_ICON_URL', '')
 
 # VPS Expiration Settings
 DEFAULT_VPS_EXPIRATION_DAYS = int(os.getenv('DEFAULT_VPS_EXPIRATION_DAYS', '30'))
